@@ -1,35 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+
 *{
     margin:0;
     padding: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Cinzel', serif;
 }
 
-.legfelsolec{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    max-height: 100px;
-    background-color: #f2f2f2;
+body{
+    background-color:#d4c5a3;;
 }
 
-.legfelsolec img{
-    max-height: 100px;
+
+.Navbar img{
+    max-height: 80px;
+    justify-content: left;
+    padding: 10px 15px;
 }   
 
-.menu{
+.Navbar{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    background-color: #333;
+    background-color: #2c1810;
+    border-bottom:  8px double #8b5a2b;
 }
 
-.menu a{
-    color: white;
+.navlinks{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-grow: 1;
+    float: right;
+    padding: 5px 20px;
+}
+
+.Navbar a{
+    color: #d4c5a3;
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
+    font-size: larger;
+    font-weight: 600;
+    font-style: italic;
+    border-bottom: transparent 3px solid;
 }
-.menu a:hover{
-    background-color: #ddd;
-    color: black;
+.Navbar a:hover{
+    color: #ffffff;
+    border-bottom: 3px solid #e9b10a;
+    transition: 0.3s;
 }
+
+.nagykep img{
+    width: 100%;
+    height: auto;
+    size: cover;
+    opacity: 90%;
+}
+
+.nagykep img:hover{
+    opacity: 100%;
+    transition: 0.5s;
+}
+
+
