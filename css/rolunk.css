@@ -1,0 +1,44 @@
+.CimSzal{
+    background-color: #f2e8d5;
+    padding: 70px 20px;
+    text-align: center;
+    border-bottom: #2c1810 3px solid;
+}
+
+.CimSzal h1{
+    font-size: 4rem;
+    color: #2c1810;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #8b5a2b;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.TortenetSzal{
+    background-color: #d4c5a3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.TortenetSzal-Kep{
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.TortenetSzal-Kep img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.TortenetSzal-szoveg{
+    flex: 1;
+    padding: 20px;
+    color: #2b1d0e;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
