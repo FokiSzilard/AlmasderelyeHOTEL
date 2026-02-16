@@ -274,8 +274,7 @@
         align-items: stretch;
     }
 
-    .Fogadoforesz .bal,
-    .Fogadoforesz .jobb{
+    .Fogadoforesz .bal, .Fogadoforesz .jobb{
         padding: 10px 0;
     }
 
@@ -284,8 +283,7 @@
         align-items: center;
     }
 
-    .kartya,
-    .kartya-kiemelt{
+    .kartya, .kartya-kiemelt{
         width: min(92vw, 480px);
         transform: none;
     }
