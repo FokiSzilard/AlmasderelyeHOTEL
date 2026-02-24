@@ -32,9 +32,15 @@
     </div>
   </nav>
 
-  <div class="PihenoForesz">
-    <h2 class="kartya-cim">Pihenőkamrák</h2>
-    <p class="kartya-kisebb">Válasszon lakosztályt rangja szerint</p>
+          <!-- Cim részleg -->
+      <div class="CimSzal">
+        <h1>Különleges Kiváltságok</h1>
+        <p>"Ne csak aludjon. Tapasztalja meg az udvari életet – vagy legalábbis azt, amit ma hajlandóak vagyunk megengedni belőle."</p>
+    </div>
+
+                <!-- FelsoSOR kartyak -->
+
+  <div class="Ajanlatok">
     <div class="kartya-lista">
             <!-- bal oldali -->
         <div class="kartya">
@@ -43,11 +49,16 @@
             </div>
             <div class="kartya-tartalom">
                 <h3>Vándor Kamra</h3>
-                <p class="kicsibarna">Udvari kilátás</p>
                 <p>Egyszerű, de nemes szállás a gyorsan továbbállóknak. Tömörfa ágy és kandalló.</p>
+                <ul class="pipalista">
+                    <li>Tömörfa ágy</li>
+                    <li>Parasztos reggeli (szalonna, hagyma, friss kenyér)</li>
+                    <li>1 korsó kézműves serital érkezéskor</li>
+                </ul>
             </div>
             <div class="kartya-ar">
                 <p><strong>24 900 Ft</strong> / éj</p>
+                <button type="button" class="kartya-gomb">Foglalás</button>
             </div>
         </div>
             <!-- középső fő -->
@@ -57,11 +68,17 @@
             </div>
             <div class="kartya-tartalom">
                 <h3>Lovagi terem</h3>
-                <p class="kicsibarna">Panoráma a völgyre</p>
                 <p>Tágas terek, medvebőr (mű) szőnyeg, privát olvasósarok a toronyban.</p>
+                <ul class="pipalista">
+                    <li>2 éjszaka a Lovagi Teremben</li>
+                    <li>Királyi bőségtálas vacsora (3 fogás)</li>
+                    <li>Ingyenes belépés a Fürdőházba</li>
+                    <li>Pince-túra a Pincemesterrel</li>
+                </ul>
             </div>
             <div class="kartya-ar">
                 <p><strong>39 900 Ft</strong> / éj</p>
+                <button type="button" class="kartya-gomb">Foglalás</button>
             </div>
         </div>
              <!-- jobb oldali -->
@@ -71,11 +88,76 @@
             </div>
             <div class="kartya-tartalom">
                 <h3>Királyi Lakosztály</h3>
-                <p class="kicsibarna">Saját terasz & Dézsa</p>
                 <p>A legnemesebb választás. Hatalmas baldachinos ágy és privát dézsafürdő.</p>
+                <ul class="pipalista">
+                    <li>2 éjszaka a Királyi Lakosztályban</li>
+                    <li>Mézbor és gyümölcstál bekészítés</li>
+                    <li>Késői kijelentkezés (amikor a Nap delelőre ér)</li>
+                </ul>
             </div>
             <div class="kartya-ar">
                 <p><strong>29 900 Ft</strong> / éj</p>
+                <button type="button" class="kartya-gomb">Foglalás</button>
+            </div>
+        </div>
+    </div>
+             <!-- AlsoSOR kártyák -->
+    <div class="kartya-lista">
+            <!-- bal oldali -->
+        <div class="kartya">
+            <div class="kartya-kep">
+                <img src="images/fegyver.jpeg" alt=" Íj és nyílvesszők">
+            </div>
+            <div class="kartya-tartalom">
+                <h3>A Vadász Trófeája</h3>
+                <p>Azoknak, akik nem csak henyélni jöttek. Célbalövés a hátsó udvarban, este pedig a "zsákmány" megsütése a nyílt tűzön.</p>
+                <ul class="pipalista">
+                    <li>2 éjszaka a Vándor Kamrában</li>
+                    <li>2 óra íjászat és balta-hajítás (oktatással)</li>
+                    <li>Egészben sült csülök vacsora korsó sörrel</li>
+                </ul>
+            </div>
+            <div class="kartya-ar">
+                <p><strong>85.000 Ft</strong> / éj</p>
+                <button type="button" class="kartya-gomb">Foglalás</button>
+            </div>
+        </div>
+            <!-- középső -->
+        <div class="kartya">
+            <div class="kartya-kep">
+                <img src="images/klangyules.jpeg" alt="Hosszú faasztal">
+            </div>
+            <div class="kartya-tartalom">
+                <h3>A Klán Gyűlése</h3>
+                <p>Hozza el az egész pereputtyot. Tágas szállás, ahol az apródok sem unatkoznak, amíg az uraságok a bort kóstolják.</p>
+                <ul class="pipalista">
+                    <li>2 éjszaka összenyitható kamrákban</li>
+                    <li>Közös üstből mért, bőséges családi lakoma</li>
+                    <li>Kincskeresés a birtokon a gyermekeknek</li>
+                </ul>
+            </div>
+            <div class="kartya-ar">
+                <p><strong>79.900 Ft</strong> / éj</p>
+                <button type="button" class="kartya-gomb">Foglalás</button>
+            </div>
+        </div>
+             <!-- jobb oldali -->
+        <div class="kartya">
+            <div class="kartya-kep">
+                <img src="images/szamuzott.jpeg" alt="Egy magányos ablak">
+            </div>
+            <div class="kartya-tartalom">
+                <h3>A Száműzött Menedéke</h3>
+                <p>Amikor elege van a királyi udvar (vagy az iroda) intrikáiból. Egy teljes hetes elvonulás teljes ellátással és diszkrécióval.</p>
+                <ul class="pipalista">
+                    <li>7 éjszaka elzárt szállás</li>
+                    <li>Napi háromszori étkezés, csendben felszolgálva</li>
+                    <li>Garantáltan nem kérdezzük meg, kicsoda Ön</li>
+                </ul>
+            </div>
+            <div class="kartya-ar">
+                <p><strong>120.000 Ft</strong> / éj</p>
+                <button type="button" class="kartya-gomb">Foglalás</button>
             </div>
         </div>
     </div>
