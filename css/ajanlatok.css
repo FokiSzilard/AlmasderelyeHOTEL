@@ -211,5 +211,9 @@
     .EgyediAjanlat p{
         padding: 0 10%;
     }
+    .EgyediAjanlat-gomb{
+        width: 40%;
+    }
+
 }
 
