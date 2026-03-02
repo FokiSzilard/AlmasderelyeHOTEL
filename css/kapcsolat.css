@@ -1,0 +1,70 @@
+.CimSzal{
+    background-color: #f2e8d5;
+    padding: 70px 20px;
+    text-align: center;
+    border-bottom: #2c1810 3px solid;
+}
+
+.CimSzal h1{
+    font-size: 4rem;
+    color: #2c1810;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #8b5a2b;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+/* Mózes  */
+
+.uzenet{
+    background-color: #d4c5a3;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 24px;
+}
+
+.uzenet-bal{
+    flex: 1 1 50%;
+    padding: 20px;
+    background-color:#f2e8d5;
+    border: 3px double #8b5a2b;
+}
+
+.nevek {
+    display: flex;
+    gap: 20px;
+  }
+  .nevek div {
+     flex: 1; 
+  }
+  
+.uzenet-form h1{
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: #2b1d0e;
+    text-align: center;
+    border-bottom: 3px solid #8b5a2b;
+    display: inline-block;
+}
+
+  .uzenet p {
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    color: #6d4c41;
+    margin-top: 20px;
+  }
+
+  .uzenet input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #8d6e63;
+    background: transparent;
+    padding: 8px 0;
+    font-family: 'Times New Roman', serif;
+    font-size: 18px;
+    font-style: italic;
+    outline: none;
+  }
