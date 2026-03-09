@@ -1,109 +1,116 @@
 <!DOCTYPE html>
 <html lang="hu">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/alap.css">
-    <link rel="stylesheet" href="css/kapcsolat.css">
-    <title>Kapcsolat - AlmásDerelye Hotel</title>
-</head>
-<body>
-<nav class="navbar">
-    <div class="navbar-container">
-      <a href="#" class="logo">
-        <img src="images/hatternelkul.png" alt="Logó">
-      </a>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/alap.css">
+        <link rel="stylesheet" href="css/kapcsolat.css">
+        <title>Kapcsolat - AlmásDerelye Hotel</title>
+    </head>
+    <body>
 
-      <input type="checkbox" id="menu-toggle" class="menu-toggle">
-      <label for="menu-toggle" class="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
-      </label>
+        <!-- NAVIGÁCIÓ -->
+        <nav class="navbar">
+            <div class="navbar-container">
+                <a href="#" class="logo">
+                    <img src="images/hatternelkul.png" alt="Logó">
+                </a>
 
-      <ul class="nav-links">
-        <li><a href="fooldal.html">Kezdőlap</a></li>
-        <li><a href="rolunk.html">Rólunk</a></li>
-        <li><a href="wellness.html">Wellness</a></li>
-        <li><a href="ajanlatok.html">Ajánlatok</a></li>
-        <li><a href="kapcsolat.html">Kapcsolat</a></li>
-      </ul>
-    </div>
-  </nav>
+                <input type="checkbox" id="menu-toggle" class="menu-toggle">
+                <label for="menu-toggle" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
 
-          <!-- Cim részleg -->
-          <div class="CimSzal">
+                <ul class="nav-links">
+                    <li><a href="fooldal.html">Kezdőlap</a></li>
+                    <li><a href="rolunk.html">Rólunk</a></li>
+                    <li><a href="wellness.html">Wellness</a></li>
+                    <li><a href="ajanlatok.html">Ajánlatok</a></li>
+                    <li><a href="kapcsolat.html">Kapcsolat</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- CÍM RÉSZLEG -->
+        <div class="CimSzal">
             <h1>Üzenet a Fogadósnak</h1>
             <p>"Dörömböljön a kapun, vagy küldjön írást. Ha nem válaszolunk azonnal, valószínűleg a borospincében ellenőrizzük a készleteket."</p>
         </div>
 
-          <!-- Mózes -->
+        <!-- ÜZENET RÉSZLEG -->
+        <div class="uzenet">
 
-    <div class="uzenet">
-        <div class="uzenet-bal">
-            <div class="uzenet-form">
-                <h1>Levél Írása</h1>
-                <div class="nevek">
-                    <div>
-                      <p>BECSÜLETES NÉV</p>
-                      <input type="text" placeholder="Pl. Hősies lovag">
+            <!-- BAL OLDAL - FORM -->
+            <div class="uzenet-bal">
+                <div class="uzenet-form">
+                    <h1>Levél Írása</h1>
+                    <div class="nevek">
+                        <div>
+                            <p>BECSÜLETES NÉV</p>
+                            <input type="text" placeholder="Pl. Hősies lovag">
+                        </div>
+                        <div>
+                            <p>RANG / TITULUS (OPCIONÁLIS)</p>
+                            <input type="text" placeholder="Gróf, Báró, Vándor...">
+                        </div>
                     </div>
-                    <div>
-                      <p>RANG / TITULUS (OPCIONÁLIS)</p>
-                      <input type="text" placeholder="Gróf, Báró, Vándor...">
-                    </div>
-                  </div>
+                </div>
+
+                <p>Elektronikus Postacím (Email)</p>
+                <input type="text" placeholder="Ahova a választ várja...">
+
+                <p>Az Üzenet Tárgya</p>
+                <input type="text" placeholder="Szállásfoglalás, Panasz, Dicséret...">
+
+                <p>Az Üzenet Tartalma</p>
+                <textarea placeholder="Írja ide üzenetét..."></textarea>
+
+                <div class="kuldes-gomb">
+                    <button type="button">HOLLÓ ÚTNAK INDÍTÁSA</button>
+                </div>
             </div>
 
-            <p>Elektronikus Postacím (Email)</p>
-            <input type="text" placeholder="Ahova a választ várja...">
+            <!-- JOBB OLDAL - INFÓ -->
+            <div class="uzenet-jobb">
+                <div class="Talalat">
+                    <h2>Hol Talál Minket?</h2>
 
-            <p>Az Üzenet Tárgya</p>
-            <input type="text" placeholder="Szállásfoglalás, Panasz, Dicséret...">  
+                    <h3>Koordináták</h3>
+                    <p>1051 Óváros, Fő tér 12. A Királyi Palotától két kőhajításnyira délre.</p>
 
-            <p>Az Üzenet Tartalma</p>
-            <textarea placeholder="Írja ide üzenetét..."></textarea>
+                    <h3>Beszélő Cső (Telefon)</h3>
+                    <p>+36 1 234 5678</p>
 
-            <div class="kuldes-gomb">
-              <button type="button">HOLLÓ ÚTNAK INDÍTÁSA</button>
+                    <h3>Kapu Nyitva</h3>
+                    <p>Napkelte után 2 órával, egészen addig, amíg az utolsó vendég is asztal alá nem iszik mindenkit.</p>
+                </div>
+
+                <div class="jobb-kep">
+                    <img src="images/guglimap.jpeg" alt="Kapcsolat">
+                </div>
             </div>
-        </div>
-        <div class="uzenet-jobb">
-          <div class="Talalat">
-            <h2>Hol Talál Minket?</h2>
 
-            <h3>Koordináták</h3>
-            <p>1051 Óváros, Fő tér 12. A Királyi Palotától két kőhajításnyira délre.</p>
-
-            <h3>Beszélő Cső (Telefon)</h3>
-            <p>+36 1 234 5678</p>
-          
-            <h3>Kapu Nyitva</h3>
-            <p>Napkelte után 2 órával, egészen addig, amíg az utolsó vendég is asztal alá nem iszik mindenkit.</p>
-          </div>
-          <div class="jobb-kep">
-            <img src="images/guglimap.jpeg" alt="Kapcsolat">
-          </div>  
         </div>
-    </div>  
 
-  <!-- FOOTER RÉSZLEG -->
+        <!-- FOOTER RÉSZLEG -->
+        <footer class="footer">
+            <div class="footer-tartalom">
+                <div class="footer-oszlop">
+                    <h3>AlmásDerelye Hotel</h3>
+                    <p class="footer-idezet">"Térj be hozzánk vándor, s leld meg nyugalmad e falak között."</p>
+                </div>
+                <div class="footer-oszlop">
+                    <h3>Elérhetőség</h3>
+                    <p>Helyszín: 1051 Óváros, Fő tér 12.</p>
+                    <p>Telefon: +36 1 234 5678</p>
+                    <p>Email: info@almasderelyehotel.hu</p>
+                </div>
+            </div>
+            <div class="footer-jog">© 1492 - 2024 Hotel AlmásDerelye. Minden jog fenntartva a Király nevében</div>
+        </footer>
 
-  <footer class="footer">
-    <div class="footer-tartalom">
-        <div class="footer-oszlop">
-            <h3>AlmásDerelye Hotel</h3>
-            <p class="footer-idezet">"Térj be hozzánk vándor, s leld meg nyugalmad e falak között."</p>
-        </div>
-        <div class="footer-oszlop">
-            <h3>Elérhetőség</h3>
-            <p>Helyszín:  1051 Óváros, Fő tér 12.</p>
-            <p>Telefon: +36 1 234 5678</p>
-            <p>Email: info@almasderelyehotel.hu</p>
-        </div>
-    </div>
-    <div class="footer-jog">© 1492 - 2024 Hotel AlmásDerelye. Minden jog fenntartva a Király nevében</div>
-</footer>
-</body>
+    </body>
 </html>
